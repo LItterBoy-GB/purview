@@ -6,6 +6,6 @@ class PurviewTest < Minitest::Test
   end
 
   def test_it_does_something_useful
-    assert false
+    Purview::CLI.run
   end
 end
